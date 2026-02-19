@@ -3,8 +3,7 @@
    height: 300px;
 
    /* TODO: Add part of your solution here */
-   background: linear-gradient(to bottom, color1, color2);
-   
+   background: linear-gradient(to bottom, forestgreen, darkgreen);
 }
 
 .card-red {
@@ -35,6 +34,7 @@
    position: absolute;
    left: 150px;
    right: 100px;
+   z-index: 2;
 
 }
 
@@ -43,6 +43,7 @@
    position: absolute;
    left: 240px;
    right: 120px;
+   z-index: 1;
 
 }
 
@@ -64,10 +65,16 @@
 
 .top-left {
    /* TODO: Add part of your solution here */
+   position: absolute;
+   top: 2px;
+   left: 2px;
 
 }
 
 .bottom-right {
    /* TODO: Add part of your solution here */
+   position: absolute;
+   bottom: 2px;
+   right: 2px;
 
 }
