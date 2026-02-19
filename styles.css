@@ -43,6 +43,7 @@
    position: absolute;
    left: 240px;
    right: 120px;
+   top: 25px;
    z-index: 1;
 
 }
