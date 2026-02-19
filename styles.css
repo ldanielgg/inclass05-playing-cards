@@ -24,19 +24,25 @@
    font-size: 80px;
 
    /* TODO: Add part of your solution here */
+   box-shadow: 3px 3px 0px black;
    border-radius: 5px;
-   box-shadow: 3px 3px 10px black;
 
 }      
 
 .card-top {
    /* TODO: Add part of your solution here */
+   position: absolute;
+   left: 150px;
+   right: 100px;
    z-index: 2;
 
 }
 
 .card-bottom {
    /* TODO: Add part of your solution here */
+   position: absolute;
+   left: 240px;
+   right: 120px;
    z-index: 1;
 
 }
