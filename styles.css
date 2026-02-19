@@ -31,11 +31,13 @@
 
 .card-top {
    /* TODO: Add part of your solution here */
+   z-index: 2;
 
 }
 
 .card-bottom {
    /* TODO: Add part of your solution here */
+   z-index: 1;
 
 }
 
@@ -57,10 +59,16 @@
 
 .top-left {
    /* TODO: Add part of your solution here */
+   position: absolute;
+   top: 2px;
+   left: 2px;
 
 }
 
 .bottom-right {
    /* TODO: Add part of your solution here */
+   position: absolute;
+   bottom: 2px;
+   right: 2px;
 
 }
