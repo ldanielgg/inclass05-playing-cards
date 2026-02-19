@@ -3,7 +3,7 @@
    height: 300px;
 
    /* TODO: Add part of your solution here */
-   background: linear-gradient(to bottom, #00ac0b, #007808);
+   background: linear-gradient(to bottom, forestgreen, darkgreen);
 }
 
 .card-red {
@@ -24,6 +24,8 @@
    font-size: 80px;
 
    /* TODO: Add part of your solution here */
+   border-radius: 5px;
+   box-shadow: 3px 3px 10px black;
 
 }      
 
